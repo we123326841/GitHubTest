@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  GitHubTest
 //
-//  Created by 王浩 on 16/5/19.
+//  Created by 王浩就是allen网页改的 on 16/5/19.
 //  Copyright © 2016年 tencent. All rights reserved.
 //
 
