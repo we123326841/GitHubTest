@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //网页修改
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +25,16 @@ class ViewController: UIViewController {
         //本地修改的
     }
 
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+          let vc = FirstViewController()
+        vc.view.backgroundColor = UIColor.yellowColor()
+          let navi = Navi(rootViewController: vc)
+        
+        print(navi)
+        presentViewController(navi, animated:true, completion: nil)
+    }
 
 }
 
